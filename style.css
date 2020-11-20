@@ -3,7 +3,7 @@ body {
     padding: 0px;
 }
 header {
-    background-color: blue;
+    background-color: rgba(30,30,30,100);
     margin: 0px;
     width:100%;
 }
@@ -14,4 +14,6 @@ header {
 h1 {
     display: inline;
     font-size: 50px;
+    font-family: "Times New Roman", serif;
+    color: white;
 }
