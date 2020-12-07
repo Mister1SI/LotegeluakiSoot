@@ -1,29 +1,35 @@
 body {
     background-color:#dddddd;
     padding: 0px;
+    margin: 0px;
 }
 header {
     background-color: rgba(30,30,30,100);
     margin: 0px;
     width:100%;
+    padding: 5px;
 }
 .logo {
     width:10%;
     display: inline;
 }
-h1 {
-    display: inline;
-    font-size: 50px;
-    font-family: "Times New Roman", serif;
-    color: white;
-}
-.motherboard_guide {
-    background-color: #333333;
-    width: 40%;
+.upfront {
+    background-color: #222222;
+    width: 50%;
     height: 1000px;
     color:white;
     float: left;
 }
-#motherboard_pic {
+.divpic {
     width:95%;
+}
+article {
+    margin: 15px;
+    color:black;
+}
+.hlink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
 }

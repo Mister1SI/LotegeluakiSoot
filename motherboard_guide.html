@@ -2,11 +2,31 @@
 <html>
     <head>
         <title>Motherboard Selection Guide | PCU</title>
-        <link rel="stylesheet" src="style.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
         <header>
-            <h1>Motherboard Selection Guide</h1>
+            <img src="images/PCU2.png" class="logo">
+            <h1 style="display:inline; color:white;">PCU</h1>
+            <a href="index.html" class="hlink" onmouseover="style='background-color:#dddddd;'" onmouseout="style='background-color:rgba(30,30,30,100);'">Home</a>
+            <a href="aboutme.html" class="hlink" onmouseover="style='background-color:#dddddd;'" onmouseout="style='background-color:rgba(30,30,30,100);'">About Me</a>
         </header>
+        <article>
+            <h2>Motherboards Selection Tips</h2>
+            <p style="width:70%;">When you're making your PC, you need to pick lots of different components.  You probably already have in mind what CPU and GPU you want. But before you get them, you need to make sure you select a compatible motherboard so they can work with each other and all the other components you put in your PC.</p>
+            <h3>Ports</h3>
+            <h4>PCIe</h4>
+            <p>Peripheral Component Interconnect Express(PCIe) is a high-speed serial bus.  It is mainly used for graphics cards, but has a variety of other uses such as RAID storage arrays.  It can fit WiFi cards and SSDs, but these are usually plugged into M.2 slots(see next section).<img src="images/ports/pcie.jpeg"><br>
+            There are different sizes, as indicated by the image.  Graphics cards usually plug into the PCIe x16 slot, which is so big there is usually only one.  You can also see how this motherboard has 2 PCI(not PCIe) slots, which is an older standard that most newer motherboards do not support.</p>
+            <h4>M.2</h4>
+            <p>M.2 is another kind of high-speed port that you find on a motherboard, except this time it's smaller!  M.2 is more commonly used for Non-Volatile Memory Express(NVMe) Solid-State Drives(SSDs) and WiFi Cards.  There are different types of keying on an M.2 slot, so you can only put certain cards in certain ports.<br>
+            <img src="images/ports/mdot2keying.png"><br>
+            There are 2 types of sockets and 3 types of connectors.  The "B" socket can fit both "B" cards and "B & M" cards, while the "M" socket can fit both "M" cards and "B & M" cards.  There are different lengths:  30mm (2230), 42mm (2242), 60mm (2260), 80mm (2280), and 110mm (22110).</p>
+            <h4>CPU socket</h4>
+            <p>You've obviously got to hook up your Central Processing Unit(CPU).  The CPU socket is where your CPU lives, and also is where the CPU cooler is mounted.  There are two types of sockets: LGA and PGA.  Pin Grid Array(PGA) is an older type of socket where there are pins on the CPU and holes on the socket.  CPUs with this socket type are more susceptible to damage, and when your CPU loses a pin, it usually means the whole thing is toast!<br>Land Grid Array, on the other hand, is the more commonly used type of socket.  There are pins on the <em>socket</em> this time, which are usually stronger than PGA pins, and 'Lands' on the CPU.  This method is much safer because even if you drop your CPU(which I do not recommend doing), then unless internal components are damaged, you're still good!<br>
+            <img src="images/ports/pgavslga.jpg" style="width:80%"><br>
+            <em>PGA(left) and LGA CPU types.</em>
+            </p> 
+        </article>
     </body>
 </html>
